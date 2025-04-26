@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# IDEs
+.idea/
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Pipenv, Poetry
+Pipfile.lock
+poetry.lock
+
+# Arquivos de cache
+.cache/
+*.bak
+*.swp
+
+# Arquivos de testes
+htmlcov/
+coverage.xml
+*.cover
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# PyInstaller
+*.spec

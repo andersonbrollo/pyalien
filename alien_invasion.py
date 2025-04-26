@@ -4,7 +4,8 @@ import pygame
 class AlienInvasion:
     def __init__(self):
         pygame.init()
-        self.screen = pygame.display.set_mode((1200, 800))
+        self.screen = pygame.display.set_mode((800, 800))
+       # self.screen.fill((0, 0, 0))  # Preenche a tela de preto
         pygame.display.set_caption("Alien Invasion")
     def run_game(self):
         while True:
@@ -12,7 +13,7 @@ class AlienInvasion:
                 if event.type == pygame.QUIT:
                     sys.exit()
 
-    pygame.display.flip()
+        pygame.display.flip()
 
 if __name__ == '__alien_invasion__':
     ai = AlienInvasion()
